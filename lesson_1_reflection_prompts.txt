@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped me quickly realize what was causing the bug and helped me in fixing the issue.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having access to the history will save me from having to delete huge chunks of a file and try to think what I typed previously. 
+    I will instead just have to access the previous version to get back all my work.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually commiting are that you can choose when to make a commit based on a logical change. 
+    The con of manually committing is that you tend to commit at different intervals of time and you could forget to commit if it is taking too long to fix a bug.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git allows you to save multiple files in a single commit allowing there to be unity between files of the same repository. This way
+    your work is cohesive and there is minimal confusion as to what changes were made in each commit. However, in Docs, you need to open each file
+    separately and figure out what changes were made.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use git log to find out how many commits have been made and I can use git diff to figure out the changes made in each commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can become more confident since even if I break something, I can checkout previous version that aren't broken and start over.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I might use Git to help me organize different version of programs that I have created.

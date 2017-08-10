@@ -1,0 +1,39 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When initializing, you are creating a brand new git repository containing all your files. This way you can log any future commits.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	
+	The staging area is different from wd since it allows you to place a bunch of files for a logical commit and it is also
+different from the repository in that it allows you to keep adding files to the stage before committing. It allows to 
+thorougly think through what files are going to be committed to the repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	I can use the staging area to add or take away files for committing. This way I can organize files into logical commits.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Branches can be helpful for history organization by allowing me to have different commits for different version of a program. This way I can easily switch between different version if I have to.
+
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams help by allowing me to see how each files can be accessed and through which branches. It also lets me know of which files are in each branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	The result of merging two branches together is that now the master branch has all of its own properties combined with the properties of the merged branch.
+The reason we represent it the way we do is because whenever you merge, you are combining two branches that used to not be related to each other but are now because 
+you merged them.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+	The pros of Git's automatic merging is that if it sees that there are no conflicts, then it will merge without bothering to ask you. This is
+helpful since you don't have to keep telling it that the merge is fine when there is no conflict. The Pros of always doing it manually is that you
+will be more aware of any conflicts that could arise from even the most cohesive merges. The cons of manually merging is that it can become very 
+tedious.
