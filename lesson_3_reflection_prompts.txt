@@ -7,7 +7,8 @@ their own. Using a local repository in that situation would only hurt the team a
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    This way, you will know for yourself what files are in each pull. Also, if Git automatically pulled, then you wouldn't
+understand some of the files if you hadn't looked at other pull requests earlier.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
